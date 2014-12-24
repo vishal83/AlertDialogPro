@@ -8,6 +8,7 @@
         <item name="colorPrimaryDark">#303F9F</item>
         <item name="colorAccent">#FF4081</item>
         <item name="alertDialogProTheme">@style/AppTheme.FlavoredMaterialLight</item>
+        <item name="datePickerDialogProTheme">@style/AppTheme.FlavoredMaterialLight</item>
     </style>
 
     <style name="AppTheme.FlavoredMaterialLight" parent="Theme.AlertDialogPro.Material.Light">

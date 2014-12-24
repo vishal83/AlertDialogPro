@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The title of the date picker dialog. [CHAR LIMIT=NONE] -->
+    <string name="adp_date_picker_dialog_title">Set date</string>
+</resources>

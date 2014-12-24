@@ -6,6 +6,9 @@
     <!-- Specify AlertDialogPro's style -->
     <attr name="alertDialogProStyle" format="reference" />
 
+    <!-- Specify DatePickerDialogPro's style -->
+    <attr name="datePickerDialogProTheme" format="reference" />
+
     <!-- Minimum height of title panel-->
     <attr name="adpTitleMinHeight" format="dimension" />
 

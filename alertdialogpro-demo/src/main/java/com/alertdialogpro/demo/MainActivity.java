@@ -10,6 +10,7 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.alertdialogpro.AlertDialogPro;
+import com.alertdialogpro.DatePickerDialogPro;
 import com.alertdialogpro.ProgressDialogPro;
 
 import java.util.ArrayList;
@@ -100,7 +101,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             return new ProgressDialog(this);
         }
 
-        return new ProgressDialogPro(this, mTheme);
+        return new DatePickerDialogPro(this, null, 2014, 12, 22);
     }
 
     private void showMessageAlertDialog() {
@@ -113,7 +114,6 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     private void showProgressDialog() {
         AlertDialog dialog = createProgressDialog();
-        dialog.setMessage("Hello, charming ProgressDialogPro!");
         dialog.setCancelable(true);
         dialog.setCanceledOnTouchOutside(true);
         dialog.show();
