@@ -1,5 +1,7 @@
 package com.alertdialogpro.internal;
 
+import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
+
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.res.TypedArray;
@@ -35,8 +37,6 @@ import android.widget.TextView;
 import com.alertdialogpro.R;
 
 import java.lang.ref.WeakReference;
-
-import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 
 public class AlertController {
 

@@ -52,7 +52,7 @@
 
     <!-- Animation Styles -->
 
-    <style name="Animation.AlertDialogPro.Material" />
+    <style name="Animation.AlertDialogPro.Material"/>
 
     <style name="Animation.AlertDialogPro.Material.Dialog">
         <item name="android:windowEnterAnimation">@anim/adp_popup_enter_material</item>
